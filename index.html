@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario de cadastro</title>
+    </head>
+    <body>
+        <h1>Formulario de cadastro</h1>
+        <form action="obrigado.html" method="post">
+            <label>Nome*:</label>
+            <input type="text" name="nome" placeholder="Digite seu nome"> required><br>
+            <label>Email*:</label>
+            <input type="email" name="email" placeholder="Digite seu e-mail"> required><br>
+            <label>Telefone*:</label>
+            <input type="tel" name="telefone" placeholder="(xx)xxxxx-xxxx"> required><br>
+            <label>idade*</label>
+            <input type="number" name="idade" min="0" max="200" placeholder="Digite sua idade">>
+            <label>Avalie nosso site:</label>
+            <input type="range" name="avaliacao" min="1" max="5" step=".1" required><br>
+            
+            <label>Curso:</label>
+            <select name="curso">
+                <option value="" disabled selected>Selecione um curso</option>
+                <option value="ADS">ADS</option>
+                <option value="Medicina">Medicina</option>
+                <option value="Administração">Administração</option>
+                <option value="Nada">Nada</option>
+            </select><br>
+           
+            <span>Selecione o periodo</span>
+            <input type="checkbox" name="manhã">
+            <label for="manhã">Manhã</label>
+            <input type="checkbox" name="Tarde">
+            <label for="Tarde">Tarde</label>
+            <input type="checkbox" name="Noite">
+            <label for="Noite">Noite</label><br>
+            
+            <label>Digite uma mensagem ou comentario: </label>
+            <textarea name="mensagem" placeholder="Digite seu comentario"></textarea><br>
+            
+            <button type="submit">Enviar</button>
+            <input type="submit" value="Enviar também só que com input">
+        </form>
+    </body>
+</html>
