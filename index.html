@@ -2,18 +2,19 @@
     <head>
         <meta charset="UTF-8">
         <title>Formulario de cadastro</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <h1>Formulario de cadastro</h1>
-        <form action="obrigado.html" method="post">
-            <label>Nome*:</label>
+    <body  style="background-color:lightpink;">
+        <h1 class="titulo">Formulario de cadastro</h1>
+        <form action="obrigado.html" method="get">
+            <label class="caixa">Nome*:</label>
             <input type="text" name="nome" placeholder="Digite seu nome" required><br>
-            <label>Email*:</label>
+            <label class="caixa">Email*:</label>
             <input type="email" name="email" placeholder="Digite seu e-mail" required><br>
-            <label>Telefone*:</label>
+            <label class="caixa">Telefone*:</label>
             <input type="tel" name="telefone" placeholder="(xx)xxxxx-xxxx" required><br>
-            <label>idade*</label>
-            <input type="number" name="idade" min="0" max="200" placeholder="xx" height="300px" required><br>
+            <label class="caixa">idade*:</label>
+            <input type="number" name="idade" min="0" max="200" placeholder="xx" required><br>
             <label>Avalie nosso site:</label>
             <input type="range" name="avaliacao" min="1" max="5" step=".1" required><br>
             
@@ -38,7 +39,57 @@
             <textarea name="mensagem" placeholder="Digite seu comentario" required></textarea><br>
             
             <button type="submit">Enviar</button>
-            <input type="submit" value="Enviar também só que com input">
+            <button type="reset">Limpar</button><br>
+
         </form>
+        <img src="pink-godzilla-yas-godzilla.gif" alt="godizilla.gif">
+        <footer>
+            <p>&copy; 2026 Formulario de cadastro. Todos os direitos reservados.</p>
+            <p>Desenvolvido por Julio de Almeida</p><br>
+            <div class="pixel-signature">
+    <div class="pixel-grid" id="pixelJ">
+        <!-- A letra J em pixels 10x10 -->
+        <div class="pixel" data-x="0" data-y="0"></div>
+        <div class="pixel" data-x="1" data-y="0"></div>
+        <div class="pixel" data-x="2" data-y="0"></div>
+        <div class="pixel" data-x="3" data-y="0"></div>
+        <div class="pixel" data-x="4" data-y="0"></div>
+        <div class="pixel" data-x="5" data-y="0"></div>
+        <div class="pixel" data-x="6" data-y="0"></div>
+        <div class="pixel" data-x="7" data-y="0"></div>
+        
+        <div class="pixel" data-x="0" data-y="1"></div>
+        <div class="pixel" data-x="7" data-y="1"></div>
+        
+        <div class="pixel" data-x="0" data-y="2"></div>
+        <div class="pixel" data-x="7" data-y="2"></div>
+        
+        <div class="pixel" data-x="0" data-y="3"></div>
+        <div class="pixel" data-x="7" data-y="3"></div>
+        
+        <div class="pixel" data-x="0" data-y="4"></div>
+        <div class="pixel" data-x="7" data-y="4"></div>
+        
+        <div class="pixel" data-x="0" data-y="5"></div>
+        <div class="pixel" data-x="7" data-y="5"></div>
+        
+        <div class="pixel" data-x="0" data-y="6"></div>
+        <div class="pixel" data-x="6" data-y="6"></div>
+        <div class="pixel" data-x="7" data-y="6"></div>
+        
+        <div class="pixel" data-x="0" data-y="7"></div>
+        <div class="pixel" data-x="5" data-y="7"></div>
+        <div class="pixel" data-x="6" data-y="7"></div>
+        <div class="pixel" data-x="7" data-y="7"></div>
+        
+        <div class="pixel" data-x="0" data-y="8"></div>
+        <div class="pixel" data-x="5" data-y="8"></div>
+        
+        <div class="pixel" data-x="0" data-y="9"></div>
+        <div class="pixel" data-x="4" data-y="9"></div>
+        <div class="pixel" data-x="5" data-y="9"></div>
+    </div>
+</div>
+        </footer>
     </body>
 </html>
